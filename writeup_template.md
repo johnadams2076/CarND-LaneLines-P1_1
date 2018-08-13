@@ -11,8 +11,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-![alt text][image1]
-[image1]: https://github.com/johnadams2076/CarND-LaneLines-P1_1/blob/master/examples/grayscale.jpg "Grayscale"
+[image2]: ./test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
+
 
 ---
 
@@ -33,7 +33,7 @@ Finally, draw the line using thickness 14.
 Final image:
 
 ![alt text][image2]
-[image2]: https://github.com/johnadams2076/CarND-LaneLines-P1_1/blob/master/test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
+
 
 
 ### 2. Identify potential shortcomings with your current pipeline
