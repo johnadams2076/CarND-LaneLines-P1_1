@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+![image1]: ./examples/grayscale.jpg "Grayscale"
 
 ---
 
@@ -32,9 +32,10 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 in two different arrays based on the slope. I averaged out individual points(x1,x2,y1,y2) for the left and right lane markers.
 I used hardcoded minY value 311 for calculating slope and intercept for the mean values. Next step was to find  minX and maxX from slope, intercept, minX and maxY.
 Finally, draw the line using thickness 14.
-If you'd like to include images to show how the pipeline works, here is how to include an image:
 
-[image2]: ./test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
+Final image:
+
+![Final Solid White Right Image]: ./test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
 
 
 ### 2. Identify potential shortcomings with your current pipeline
@@ -50,4 +51,4 @@ Another shortcoming could be when faced with intermittent light and shadows.
 A possible improvement would be to average over similar looking frames and keeping history of slopes.
 
 Another potential improvement could be to read positions, sizes and pertinent attributes of vehicles in the vicinity
- and come up with a probabilistic model of lanes.
+and come up with a probabilistic model of lanes.
