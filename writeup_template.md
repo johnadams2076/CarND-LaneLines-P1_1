@@ -1,9 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Finding Lane Lines on the Road**
@@ -15,7 +11,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-![image1]: ./examples/grayscale.jpg "Grayscale"
+![alt text]: [image1]
+[image1]: https://github.com/johnadams2076/CarND-LaneLines-P1_1/blob/master/examples/grayscale.jpg "Grayscale"
 
 ---
 
@@ -35,7 +32,8 @@ Finally, draw the line using thickness 14.
 
 Final image:
 
-![Final Solid White Right Image]: ./test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
+![alt text]: [image2]
+[image2]: https://github.com/johnadams2076/CarND-LaneLines-P1_1/blob/master/test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
 
 
 ### 2. Identify potential shortcomings with your current pipeline
