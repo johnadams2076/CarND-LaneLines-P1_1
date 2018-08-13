@@ -34,7 +34,7 @@ I used hardcoded minY value 311 for calculating slope and intercept for the mean
 Finally, draw the line using thickness 14.
 If you'd like to include images to show how the pipeline works, here is how to include an image:
 
-![alt text][image1]: ./test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"]
+![alt text][image1]: ./test_images_output/solidWhiteRight_Output.jpg "Solid White Right Output"
 
 
 ### 2. Identify potential shortcomings with your current pipeline
